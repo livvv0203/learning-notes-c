@@ -23,8 +23,8 @@ int main()
     c = a / b;
     printf("a / b = %.2lf\n", c); 
 
-    int s = sizeof(int16_t);
-    printf("%d", s); // 4 bits
+    int s = sizeof(int); // 2 bytes
+    printf("%d", s); // 4 bytes - 32bits
 
     return 0;
 }
