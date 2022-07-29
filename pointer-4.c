@@ -17,3 +17,11 @@ int main() {
     int total = SumOfElements(A, size);
     printf("Sum of elements = %d\n", total); // 15
 }
+
+
+
+
+
+
+
+
